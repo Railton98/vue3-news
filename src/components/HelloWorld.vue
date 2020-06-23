@@ -14,14 +14,14 @@ export default {
 
 <template>
   <h1>Hello Vue 3!</h1>
-  <Teleport to="#title">
+  <!-- <Teleport to="#title">
     My Person Title
-  </Teleport>
-  <Teleport to="#modal">
+  </Teleport> -->
+  <!-- <Teleport to="#modal">
     <ul>
       <li v-for="item in list" :key="item.id">{{ item.name }}</li>
     </ul>
-  </Teleport>
+  </Teleport> -->
   <!-- <Portal target="#modal">
     <ul>
       <li v-for="item in list" :key="item.id">{{ item.name }}</li>
